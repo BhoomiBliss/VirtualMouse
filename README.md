@@ -1,4 +1,3 @@
-# VirtualMouse
 # Virtual Mouse using Machine Learning
 
 **Mini Project – Academic Project**
