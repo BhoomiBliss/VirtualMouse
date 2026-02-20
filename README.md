@@ -25,6 +25,7 @@ Implemented features like cursor movement, clicks, and scrolling via hand gestur
 - PyAutoGUI
 
 
+
 ## How to Run
 1. Clone the repository:
 ```bash
