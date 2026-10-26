@@ -1,32 +1,26 @@
-# Virtual Mouse using Machine Learning
+# Gesture-Controlled Virtual Mouse
 
+An academic Python prototype that uses a webcam and hand gestures to control pointer movement, clicking, and scrolling. The single-file implementation is `virtual_mouse.py`.
 
-**Mini Project – Academic Project**
+## What it demonstrates
 
----
+- Hand landmark input with OpenCV and MediaPipe
+- Gesture-based pointer and click interactions
+- PyAutoGUI for desktop input
 
-## Description
-Built a gesture-controlled Virtual Mouse using Python, OpenCV, and MediaPipe, enabling touchless interaction for users with limited mobility.  
-Implemented features like cursor movement, clicks, and scrolling via hand gestures with **90% accuracy in real-time**.
+This is an interaction prototype, not an accessibility-certified product. The previous README stated “90% accuracy” without a reproducible evaluation method; that metric has been removed.
 
+## Setup
 
-## Features
-- **Cursor movement** using index finger gestures
-- **Left click / double click** using thumb and index finger pinch
-- **Scrolling / smooth cursor control** using hand movement
-- Real-time interaction using webcam
-- Touchless operation, ideal for accessibility
+Use Python 3 and a working webcam. Install the packages referenced in the project:
 
-
-## Tech Stack
-- Python 3.x
-- OpenCV
-- MediaPipe
-- PyAutoGUI
-
-
-
-## How to Run
-1. Clone the repository:
 ```bash
-git clone https://github.com/BhoomiBliss/VirtualMouse.git
+python -m pip install opencv-python mediapipe pyautogui
+python virtual_mouse.py
+```
+
+The repository currently has no dependency lock or requirements file. The commands above were not run as part of this documentation update; verify package compatibility on your operating system before using desktop input automation.
+
+## Project type
+
+Academic mini-project.
